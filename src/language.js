@@ -1,12 +1,13 @@
 export default
 {
+    // svenska språket = 'SE'
     // langue française = 'FR'
     // lengua española = 'ES'
     // lingua italiana = 'IT'
     // english language = 'EN'
     SELECTED_LANGUAGE : 'EN',
 
-    LANGUAGES : ['EN', 'ES', 'IT', 'FR'],
+    LANGUAGES : ['EN', 'ES', 'IT', 'FR', 'SE'],
     EN : {
         COLORS : ['black', 'white', 'blue', 'red', 'yellow', 'orange', 'green', 'purple']
     },
@@ -18,5 +19,8 @@ export default
     },
     FR : {
         COLORS : ['noir', 'blanc', 'bleu', 'rouge', 'jaune', 'orange', 'vert', 'violet']
+    },
+    SE : {
+        COLORS :['svart', 'vit', 'blå', 'röd', 'gul', 'orange', 'grön', 'lila']
     }
 }
